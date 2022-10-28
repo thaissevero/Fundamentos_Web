@@ -3,40 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Perfil</title>
+    <title>Meu Perfil</title>   
+    <link rel="stylesheet" href="Assets/CSS/style.css"> 
 </head>
 <body>
-    <hr>
-    <ul>
-    <li>
-        <a href="index.html"> Home </a>
-    </li>
-    <li>
-        <a href="contato.html"> Contato </a>
-        </li>
+<hr>
+    <ul id="menu"> <!-- usamos o id para indicar que só vamos mexer em um único menu -->
+        <li><a href="index.html"> Home </a></li>
+        <li><a href="contato.html"> Contato </a></li>
     </ul>
 <hr>
-    <h1>🌿 My name is Tighnari, The Verdant Strider!</h1>
-    <hr>
-    <p>
-        A Forest Watcher on profile in Gandharva Ville. Despite his intelligence, he prefers to live a solitary life in the depths of Avidya Forest rather than in the ivory tower of Sumeru Akademiya.
-    </p>
-    <img src="Assets/IMAGENS/Tighnari.gif" alt="Foto do Tighnari">
-    <hr>
-    <h2>🌾 About me!</h2>
-
-    🌻 My Vision is: Dendro
+    <h1 class="center"> 🌿 My name is Tighnari, The Verdant Strider! </h1> <!-- Só pode conter um h1 -->
+<hr>
+    <div class="container">
+        <div>
+            <img src="Assets/IMAGENS/Tighnari.gif" alt="Foto do Tighnari">
+        </div>
+        <div class="p-30">
+    <p> Being a Forest Watcher, Tighnari is highly knowledgeable about various species of both plants and animals, particularly flowers. He spends a great deal of time in Sumeru's rainforests and rarely travels to Sumeru City, only traveling to the city to deal with personal matters or other important issues. He has very sensitive ears, being susceptible to loud noises, heavy wind and thunder. He is also not fond of the desert, claiming that it's too hot for him. </p>
+        </div>
+    </div>
+<hr>
+    <div class="container">
+        <div>
+            <h2 class="center"> 🌾 About me! </h2>
+    <p>🌻 My Vision is: Dendro
     <br>
     🦊 My Constellation is: Vulpes Zerda
     <br>
     🏹 My Weapon is a: Bow
     <br>
-    🎂 My Birthday is: December 29.
+    🎂 My Birthday is: December 29
     <br>
-    🥗 My favorite food is "Forest Watcher's Choice"
-    <hr>    
-
-    <h2>🌱 Here is my Pitch:</h2>
+    🥗 My favorite food is "Forest Watcher's Choice"</p>
+        </div>
+    <div>
+        <div class="a-10">
+    <h2 class="center">🌱 Here is my Pitch:</h2>
     <iframe 
     width="560" 
     height="315" 
@@ -45,5 +48,19 @@
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen></iframe>
+    </div>
+    </div>
+        </div>
+<hr>
+    <footer>
+        <div class="container">
+            <a href="https://github.com/thaissevero" target="_blank"> <!-- Target Blank é para o link abrir em uma nova guia-->
+            <img class="tm-social p-30" src="Assets/IMAGENS/GitHub.png" alt="Meu perfil no GitHub"></a>
+
+            <a href="https://www.linkedin.com/in/thais-severo/" target="_blank"> 
+            <img class="tm-social p-30" src="Assets/IMAGENS/LinkedIn.png" alt="Meu perfil no LinkedIn"></a>
+        </div>
+            <p class="center"> Todos os direitos reservados a: Thais Severo &copy </p> 
+    </footer>
 </body>
 </html>

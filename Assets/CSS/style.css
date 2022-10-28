@@ -1,0 +1,57 @@
+/* Estilo da página index */
+
+.center {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center; /* Se eu quiser colocar no centro/direita/esquerda */
+    align-items: center;     /* Alinhamento de itens verticalmente (lado a lado)*/
+}
+
+p { /* Desse modo, TODAS tags <p> terão a font-size em 23px */  
+    font-size: 22px;
+    /* Para usar só em UM: id= *alguma palavra aqui* */
+    /* Para usar em VÁRIOS: class= *alguma palavra aqui* */
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#menu li { /* o jogo da velha representa o ID, e o li é o <li> da linha 10 do index */
+    display: inline;
+    padding: 20px; /* espaçamento interno do conteúdo */
+}
+
+#menu li a { /* usamos o a porque é o <a> da mesma linha do <li> */
+    text-decoration: none;
+    border: 2px solid #adc178;
+    padding: 10px;
+    font-size: 19px;
+}
+
+#menu li a:hover { /* hover é para quando passar o mouse por cima, mudar de cor */
+    color: chartreuse;
+}
+
+.p-30 { /* Distancia do texto sobre o Tighnari */
+    padding: 60px;
+}
+
+.a-10 {
+    padding: 60px;
+}
+
+.tm-social { /* Tag inventada para representar as Rede Sociais */
+    width: 60px;
+    height: 60px;
+}
+
+/* Estilos da página contato.html */
+
+.ml-50 {
+    margin-left: 50px;
+}
