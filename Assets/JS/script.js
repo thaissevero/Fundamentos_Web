@@ -4,12 +4,15 @@ let nome = window.document.getElementById('nome')
 let email = document.querySelector('#email')
 let assunto = document.querySelector('#assunto')
 
-nome.style.width = '100%'
-email.style.width = '100%'
-assunto.style.width = '100%'
 let nomeOk = false
 let emailOk = false
 let assuntoOk = false
+
+let mapa = document.querySelector('#mapa')
+
+nome.style.width = '100%'
+email.style.width = '100%'
+assunto.style.width = '100%'
 
 function validaNome() {
     let txtNome = document.querySelector('#txtNome')
@@ -48,13 +51,19 @@ function validaAssunto() {
 }
 
 function enviar() {
-    if (nomeOk == true && emailOk == true && assuntoOk == true (
+    if (nomeOk == true && emailOk == true && assuntoOk == true) {
         alert ('formulário enviado com sucesso!')
+    } else {
         alert ('Preencha o formulario corretamente antes de enviar')
-    )
+    }
 }
-function mapaZoom() (
-    mapa.style.width = '800px'
-    mapa.style.height = 600px
 
-)
+function mapaZoom() {
+    mapa.style.width = '800px'
+    mapa.style.height = '600px'
+}
+
+function mapaNormal () {
+    mapa.style.width = '400px'
+    mapa.style.height = '250px'
+}
